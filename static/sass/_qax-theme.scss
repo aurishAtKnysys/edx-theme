@@ -10,9 +10,9 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f7691f;
+$main-color: #339900;
 $dark-color: #ea281f; //Link Color
-$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$light-color: #000; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
@@ -269,4 +269,69 @@ section.tos {
     .print {
         margin: 50px 0;
     }
+}
+
+header.global {
+  background: rgba(255, 255, 255, 1) !important;
+
+}
+header.global.slim {
+    border-bottom: 1px solid #919191 !important;
+}
+.home>header .title {
+    display: none !important;
+    width: 39% !important;
+    background: rgba(251, 251, 251, 0) !important;
+    border-radius: 100px !important;
+    margin-left: 32.05961% !important;
+}
+
+.highlighted-courses .courses .course, .find-courses .courses .course {
+  border: 1px solid #339900 !important;
+  border-radius: 35px !important;
+}
+.courses-container .courses .course {
+    background: #fff !important;
+}
+.courses-container .courses .course .course-image .cover-image {
+    border-bottom: 3px solid #339900 !important;
+    border-radius: 35px !important;
+}
+.courses-container .courses .course .course-image .cover-image:before {
+    border-radius: 30px !important;
+}
+.courses-container .courses .course .course-image .cover-image .learn-more {
+    border-radius: 30px !important;
+}
+.view-register .introduction header .title .title-super, .view-login .introduction header .title .title-super, .view-passwordreset .introduction header .title .title-super {
+    color: #339900 !important;
+}
+textarea, input[type="text"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"] {
+    background: #fff !important;
+    border: 1px solid #339900 !important;
+}
+.dashboard .my-courses .listing-courses .course-item .course-container {
+    background: #fff !important;
+}
+div.info-wrapper {
+    background-color: #fff !important;
+}
+.container>div {
+    border: 1px solid #339900 !important;
+    background: #fff !important;
+}
+div.info-wrapper section.updates>ol>li, div.info-wrapper section.updates>ol article, div.info-wrapper section.updates section>li, div.info-wrapper section.updates section article {
+    background-color: #fff !important;
+}
+.course-index {
+    border-right: 1px solid #339900 !important;
+}
+header.global .primary>a {
+    background-color: #fff !important;
+}
+header.global .user .dropdown {
+    padding: 10px 10px !important;
+}
+.modal .inner-wrapper header hr::after, .leanModal_box .inner-wrapper header hr::after, body.discussion .wmd-prompt-dialog .inner-wrapper header hr::after, .discussion-module .wmd-prompt-dialog .inner-wrapper header hr::after, .discussion-user-threads .wmd-prompt-dialog .inner-wrapper header hr::after, .home .university-partners hr::after, .course-info .course-sidebar header::after, .mediakit hr::after, .container.about>nav::after, section.about.outside-app>nav::after, .about.wrapper-account-settings>nav::after, .view-profile .profile-self .wrapper-profile-field-account-privacy .about.u-field-account_privacy>nav::after, .view-profile .about.wrapper-profile-sections>nav::after, .view-profile .about.badge-set-display>nav::after {
+    background-image: -webkit-linear-gradient(#C8C8C8 0%, #C8C8C8) !important;
 }
