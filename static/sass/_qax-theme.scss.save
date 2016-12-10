@@ -45,21 +45,18 @@ $black-80: #585858;
 
 @import url(http://fonts.googleapis.com/earlyaccess/notonastaliqurdudraft.css);
 @import url(https://fonts.googleapis.com/css?family=Amiri);
-
+font-family: 'Amiri', serif;
 //$theme-sans-font: 'Source Sans';
 //$sans-serif: $theme-sans-font, $sans-serif;
 //$body-font-family: $sans-serif;
 $body-font-family: 'Noto Nastaliq Urdu Draft', serif !important;
-// $body-font-family: 'Amiri', serif !important;
 
 //$theme-serif-font: 'Crimson Text';
 //$serif: $theme-serif-font, $serif;
 $serif: 'Noto Nastaliq Urdu Draft', serif !important;
-// $serif: 'Amiri', serif !important;
 
 
 
-//-----------------
 //  Theme Element Assignments
 //-----------------
 
@@ -217,13 +214,6 @@ $video-thumb-url: '../themes/qax-theme/images/edx.png';
 //-----------------
 // Override CSS
 //-----------------
-label {
-    font-style: normal !important;
-}
-input[type="url"], input[type="email"], input[type="password"], input[type="tel"] {
-    font-style: normal !important;
-}
-
 html {
     background-color: $secondary-25 !important;
 }
@@ -351,18 +341,3 @@ header.global .user .dropdown {
 .modal .inner-wrapper header hr::after, .leanModal_box .inner-wrapper header hr::after, body.discussion .wmd-prompt-dialog .inner-wrapper header hr::after, .discussion-module .wmd-prompt-dialog .inner-wrapper header hr::after, .discussion-user-threads .wmd-prompt-dialog .inner-wrapper header hr::after, .home .university-partners hr::after, .course-info .course-sidebar header::after, .mediakit hr::after, .container.about>nav::after, section.about.outside-app>nav::after, .about.wrapper-account-settings>nav::after, .view-profile .profile-self .wrapper-profile-field-account-privacy .about.u-field-account_privacy>nav::after, .view-profile .about.wrapper-profile-sections>nav::after, .view-profile .about.badge-set-display>nav::after {
     background-image: -webkit-linear-gradient(#C8C8C8 0%, #C8C8C8) !important;
 }
-h1, h2, h3, h4, h5, h6, html, header, div, button, ol, p, aside p, a, a:link, select, label {
-    font-family: 'Noto Nastaliq Urdu Draft', serif !important;
-    line-height: 35px !important;
-}
-header.global {
-    height: 100px !important;
-}
-.view-register .introduction header .title .title-super, .view-login .introduction header .title .title-super, .view-passwordreset .introduction header .title .title-super {
-    margin-bottom: 13px !important;
-}
-.login form .field.password .tip, .register form .field.password .tip, .passwordreset form .field.password .tip, #forgot-password-modal #password-reset form .field.password .tip {
-    margin: -7px 0;
-}
-header.global.slim h1.logo img {height: 70px !important;}
-header.global.slim h2 {overflow: visible;}
